@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox styleClass="vbox" stylesheets="/WithFXML/Style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WithFXML.Controller">
+    <Label fx:id="label1" text="String 1" />
+    <Label styleClass="redLabel" text="String 2" />
+    <Label text="String 3" />
+    <Label styleClass="redLabel" text="String 4" />
+    <Label text="String 5" />
+    <Label styleClass="blueLabel" text="String 6" />
+    <Button fx:id="button" onAction="#ButtonClick" text="Click Me!" />
+</VBox>

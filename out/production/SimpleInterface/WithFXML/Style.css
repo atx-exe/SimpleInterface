@@ -1,0 +1,31 @@
+.vbox {
+    -fx-alignment: center;
+    -fx-padding: 50 30 30 30;
+    -fx-spacing: 20;
+    -fx-background-color: mediumslateblue;
+}
+
+.label {
+    -fx-text-fill: gold;
+}
+
+.redLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: red;
+}
+
+.label.blueLabel {
+    -fx-text-fill: blue;
+}
+
+#label1 {
+    -fx-font-size: 15px;
+    -fx-background-color: #f3622d;
+    -fx-text-fill: green;
+}
+
+#label1:hover {
+    -fx-background-color: #99ffe0;
+    -fx-underline: true;
+    -fx-text-fill: red;
+}
